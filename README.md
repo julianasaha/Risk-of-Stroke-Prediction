@@ -35,23 +35,30 @@ Author: Juliana Sahagun
  
 #### Machine learning Results:
 Logistic Model
--  SCORES: Testing Accuracy .948 before tuning →.948 (No change)
--  PCA had no effect on the Logistic Model. Predictions were the same at 16.4 s. 
--  F1 Score:.95
+-  SCORES: Testing Accuracy .74 before tuning →.74 (No change)
+-  PCA  has no effect on model.
+-  F1 Score= 75
+-  Recall = 75%
+-  Precision =57%
 
 
 Decision Tree Model
--  SCORES:Testing Accuracy 0.9 before tuning→ after .948
+-  SCORES:Testing Accuracy 0.92 before tuning→ after .93
 -  PCA made the model faster by 9.6 s. Final Time: 17.2 s.
--  F1 Score: .95
+-  F1 Score= 95%
+-  Recall = 51%
+-  Precision =51%
 
 
 KNN Model
 -  SCORES:Testing Accuracy .948 before tuning →.948 (No change)
 -  PCA made the model faster by 72.8 ms. Final Time: 96.2ms
--  F1 Score: .95
+-  F1 Score= 95%
+-  Recall = 47%
+-  Precision =49%
+
  
 ###### Recommendations:
-Although all models presented relatively close results, I would highly suggest using the Decision Tree Model because of its high accuracy score and both the testing and training data and for its fast prediction time.When it comes to health, we want a model that makes the best predictions that will be helpful in preventing the occurrence of a stroke in a timely manner.This model would predict less false negatives which is way worse in terms of being more expensive and having more negative effects on people.
+Although all models presented relatively close results, I would not move forward with any of my models. When it comes to data pertaining one's life, it is crucial to have the best high performance model so no type 1 and type 2 errors are made that could drastically impact one's well being. A model with more than 95% recall and precision is ideal for this dataset.
 # For Further Information:
 For any additional questions or concerns in regards to my sales predictions, please contact me at julianas4013@gmail.com. Thank you!
